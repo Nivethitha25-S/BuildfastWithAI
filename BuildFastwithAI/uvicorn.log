@@ -1,0 +1,221 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+INFO:     Started server process [22912]
+INFO:     Waiting for application startup.
+INFO:bharatsahay:Initializing BharatSahay AI database schema...
+INFO:bharatsahay:Database initialized successfully.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55478 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51064 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51069 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51066 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51076 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Am+I+eligible+for+this+scheme%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+documents+do+I+need%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+is+the+application+deadline%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Where+do+I+apply+%E2%80%94+online+or+office%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=How+long+does+approval+take%3F "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:65188 - "GET /api/chat/suggestions?lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65197 - "GET /api/chat/suggestions?lang=ta HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Standard+identification+and+eligibility+verification "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Eligibility+for+Scholarship "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Document+specifies+guidelines%3B+verify+personal+criteria. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Applicant+category+or+income+proof "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Eligibility+criteria+identified+based+on+document+guidelines. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%E2%80%A2+Rate+and+Duration+of+Scholarship+%28from+financial+year+2022-23%29 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%E2%80%A2+The+rate+of+scholarship+is+%E2%82%B910%2C000%2F-per+annum+for+first+three+years+of+fresh%2F+renewal "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%E2%80%A2+The+rate+of+scholarship+is+%E2%82%B912%2C000%2F-per+annum+at+Graduation+level+for+first+three+years+of+College+and "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%5BRefer+to+CSSS_GUIDLINES_07022024_updated.pdf+-+Page+1%5D "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Verify+Document+Requirements "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Cross-check+all+required+certificates+%28Identity%2C+Marks%2C+Income%29+listed+on+page+1. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Fill+Online+Application "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Navigate+to+the+designated+portal+before+the+specified+deadline. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Submit+%26+Download+Acknowledgement "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Save+the+submission+receipt+and+keep+the+application+ID+for+tracking. "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:62823 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=%E0%AE%86%E0%AE%B5%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%85%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D+%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D+%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3A+%E2%80%A2+%E0%AE%89%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D+%E0%AE%AE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%8D+%E0%AE%95%E0%AE%BE%E0%AE%B2%E0%AE%AE%E0%AF%8D+%28%E0%AE%A8%E0%AE%BF%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BE%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81+2022-23+%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D%29+%E2%80%A2+%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%2F%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D+%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81+%E0%AE%B5%E0%AE%B0%E0%AF%81%E0%AE%9F%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%A9+%E0%AE%89%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D+%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81+&tl=ta&client=tw-ob&idx=0&total=2&textlen=190 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=%E2%82%B910%2C000%2F-+%E2%80%A2+%E0%AE%89%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88+%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D%2C+%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D+%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81+%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%A9+%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81+%E0%AE%AE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D+%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81+%E2%82%B912%2C000%2F-&tl=ta&client=tw-ob&idx=1&total=2&textlen=115 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:57492 - "GET /api/chat/tts?text=%E0%AE%86%E0%AE%B5%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%85%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D%20%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3A%20%E2%80%A2%20%E0%AE%89%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D%20%E0%AE%AE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%95%E0%AE%BE%E0%AE%B2%E0%AE%AE%E0%AF%8D%20(%E0%AE%A8%E0%AE%BF%E0%AE%A4%E0%AE%BF%E0%AE%AF%E0%AE%BE%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%202022-23%20%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D)%20%E2%80%A2%20%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%AF%2F%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D%20%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81%20%E0%AE%B5%E0%AE%B0%E0%AF%81%E0%AE%9F%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%A9%20%E0%AE%89%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D%20%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%20%E2%82%B910%2C000%2F-%20%E2%80%A2%20%E0%AE%89%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88%20%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D%2C%20%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%B2%E0%AF%8D%20%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81%20%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%A9%20%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%20%E0%AE%AE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%86%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%20%E2%82%B912%2C000%2F-&lang=ta HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=Auto+reply+simulation%3A+this+audio+plays+while+the+header+stop+square+is+visible.&tl=en&client=tw-ob&idx=0&total=1&textlen=80 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:57742 - "GET /api/chat/tts?text=Auto%20reply%20simulation%3A%20this%20audio%20plays%20while%20the%20header%20stop%20square%20is%20visible.&lang=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57749 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57755 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57753 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57758 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57762 - "PUT /api/auth/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61422 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61420 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61425 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61431 - "GET /api/chat/suggestions?document_id=9912692f-4612-4eca-9722-89bb47c5fbd6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61434 - "GET /api/chat/suggestions?document_id=9912692f-4612-4eca-9722-89bb47c5fbd6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=Based+on+the+verified+document+evidence%3A+%E2%80%A2+Procedure+for+Application+%E2%80%A2+Fresh%2FRenewal+applications+sent+%E2%80%A2+account+number+or+NSP+Application+ID.&tl=en&client=tw-ob&idx=0&total=1&textlen=142 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:61442 - "GET /api/chat/tts?text=Based%20on%20the%20verified%20document%20evidence%3A%20%E2%80%A2%20Procedure%20for%20Application%20%E2%80%A2%20Fresh%2FRenewal%20applications%20sent%20%E2%80%A2%20account%20number%20or%20NSP%20Application%20ID.&lang=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49911 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49910 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49917 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50068 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50295 - "POST /api/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61156 - "PUT /api/auth/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58673 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58676 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49694 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64272 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59831 - "POST /api/documents/upload HTTP/1.1" 201 Created
+INFO:     127.0.0.1:62424 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52100 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57256 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59657 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=Based+on+the+verified+document+evidence%3A+%E2%80%A2+STAGE+1+%C2%B7+ABSTRACT+SUBMISSION+%E2%80%A2+wide-coverage+wall+and+pedestal+fans+%E2%80%A2+UF%2C+UV%2C+and+Alkaliser+stages+across+a+7-stage&tl=en&client=tw-ob&idx=0&total=1&textlen=159 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:53343 - "GET /api/chat/tts?text=Based%20on%20the%20verified%20document%20evidence%3A%20%E2%80%A2%20STAGE%201%20%C2%B7%20ABSTRACT%20SUBMISSION%20%E2%80%A2%20wide-coverage%20wall%20and%20pedestal%20fans%20%E2%80%A2%20UF%2C%20UV%2C%20and%20Alkaliser%20stages%20across%20a%207-stage&lang=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49275 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49276 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63474 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58430 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49982 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59024 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58030 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63533 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54809 - "POST /api/auth/update-language HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+licenses%2Fregistrations+does+this+require%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+is+the+compliance+deadline%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+are+the+eligibility+criteria+for+MSME%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+documents+must+I+submit%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Are+there+any+fees+or+penalties%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+is+the+income+limit+mentioned%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=What+is+the+age+limit%3F "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:50127 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54299 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063&lang=ta HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%E2%80%A2+STAGE+1++%C2%B7++ABSTRACT+SUBMISSION "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%E2%80%A2+two%2Fthree+pager+%28excluding+intro%29%2C+in+PDF+format "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%5BRefer+to+1789468116558-atomQUEST+2026_Tracks_%26_Stage_1_Details.pdf+-+Page+2%5D "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Cross-check+all+required+certificates+%28Identity%2C+Marks%2C+Income%29+listed+on+page+2. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=Extracted+deadline%3A+deadline%0A%E2%80%A2+Any+other+technical+detail+you+conside "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:60507 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=%E0%AE%86%E0%AE%B5%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%85%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D+%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D+%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3A+%E2%80%A2+%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88+1+%C2%B7+%E0%AE%9A%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D+%E0%AE%9A%E0%AE%AE%E0%AE%B0%E0%AF%8D%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D+%E2%80%A2+%E0%AE%87%E0%AE%B0%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%2F%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81+%E0%AE%AA%E0%AF%87%E0%AE%9C%E0%AE%B0%E0%AF%8D+%28%E0%AE%85%E0%AE%B1%E0%AE%BF%E0%AE%AE%E0%AF%81%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%88%E0%AE%A4%E0%AF%8D+%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%29%2C+PDF+%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D&tl=ta&client=tw-ob&idx=0&total=1&textlen=136 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:54126 - "GET /api/chat/tts?text=%E0%AE%86%E0%AE%B5%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%85%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D%20%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3A%20%E2%80%A2%20%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AF%88%201%20%C2%B7%20%E0%AE%9A%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D%20%E0%AE%9A%E0%AE%AE%E0%AE%B0%E0%AF%8D%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D%20%E2%80%A2%20%E0%AE%87%E0%AE%B0%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%2F%E0%AE%AE%E0%AF%82%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81%20%E0%AE%AA%E0%AF%87%E0%AE%9C%E0%AE%B0%E0%AF%8D%20(%E0%AE%85%E0%AE%B1%E0%AE%BF%E0%AE%AE%E0%AF%81%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%88%E0%AE%A4%E0%AF%8D%20%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81)%2C%20PDF%20%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B2%E0%AF%8D&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60134 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60133 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60135 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59330 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55423 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64737 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57323 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65075 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65072 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65076 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65077 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50155 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52414 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64974 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64973 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64976 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64975 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50209 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50210 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50211 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50212 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60216 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50837 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63619 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63621 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63622 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63623 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65388 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65389 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65390 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65391 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61259 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61260 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53036 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53037 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61844 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55213 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59211 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/chat/suggestions?document_id=63155204-95e0-41d4-944b-3e6d4a72e063&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59213 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59214 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55138 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55137 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55142 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55140 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52575 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52576 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52577 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52578 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52579 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56598 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65237 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65238 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62347 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53536 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55298 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/onnx-community/whisper-base/resolve/main/onnx/encoder_model.onnx "HTTP/1.1 302 Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/onnx-community/whisper-base/resolve/main/onnx/decoder_model_merged.onnx "HTTP/1.1 302 Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/onnx-community/whisper-base/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/onnx-community/whisper-base/1846881b6b3a3024392c1eea3ad983695bc23925/tokenizer.json?%2Fonnx-community%2Fwhisper-base%2Fresolve%2Fmain%2Ftokenizer.json=&etag=%221e95340ff836fad1b5932e800fb7b8c5e6d78a74%22 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58961 - "POST /api/chat/stt?lang=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59772 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=Based+on+the+verified+document+evidence%3A+%E2%80%A2+34+SCHOLARSHIPS+OFFERED+BY+INDIAN+GOVERNMENT&tl=en&client=tw-ob&idx=0&total=1&textlen=87 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:56463 - "GET /api/chat/tts?text=Based%20on%20the%20verified%20document%20evidence%3A%20%E2%80%A2%2034%20SCHOLARSHIPS%20OFFERED%20BY%20INDIAN%20GOVERNMENT&lang=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58068 - "POST /api/chat/stt?lang=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58047 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54784 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54782 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51975 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64826 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56830 - "POST /api/auth/update-language HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50810 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52793 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52385 - "POST /api/chat/stt?lang=ta HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=SCHOLARSHIPS "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=OFFERED+BY "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=INDIAN+GOVERNMENT "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ta&dt=t&q=%5BRefer+to+scholarship.jpg+-+Page+1%5D "HTTP/1.1 200 OK"
+Translation unavailable (ta), returning source text: [Errno 11001] getaddrinfo failed
+INFO:     127.0.0.1:58649 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=%E0%AE%86%E0%AE%B5%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D+%E0%AE%85%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D+%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D+%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3A+%E2%80%A2+34+%E0%AE%B8%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B2%E0%AE%B0%E0%AF%8D%E0%AE%B7%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D+%E0%AE%B5%E0%AE%B4%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%AF%E0%AE%A4%E0%AF%81+%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF+%E0%AE%85%E0%AE%B0%E0%AE%9A%E0%AF%81&tl=ta&client=tw-ob&idx=0&total=1&textlen=80 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:59347 - "GET /api/chat/tts?text=%E0%AE%86%E0%AE%B5%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%85%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AE%B2%E0%AF%8D%20%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%3A%20%E2%80%A2%2034%20%E0%AE%B8%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B2%E0%AE%B0%E0%AF%8D%E0%AE%B7%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D%20%E0%AE%B5%E0%AE%B4%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%AF%E0%AE%A4%E0%AF%81%20%E0%AE%87%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF%20%E0%AE%85%E0%AE%B0%E0%AE%9A%E0%AF%81&lang=ta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64368 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58539 - "GET /api/chat/conversations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57111 - "POST /api/auth/update-language HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Am+I+eligible+for+this+scheme%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=What+documents+do+I+need%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=What+is+the+application+deadline%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Where+do+I+apply+%E2%80%94+online+or+office%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=How+long+does+approval+take%3F "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=What+is+the+income+limit+mentioned%3F "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:57525 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1&lang=hi HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56875 - "GET /api/chat/suggestions?document_id=1aae6f72-c0d9-4d31-8fa5-f47513a1dea1&lang=hi HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49233 - "POST /api/chat/stt?lang=hi HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Standard+identification+and+eligibility+verification "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Document+specifies+guidelines%3B+verify+personal+criteria. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Applicant+category+or+income+proof "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Eligibility+criteria+identified+based+on+document+guidelines. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=%E2%80%A2+34 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=SCHOLARSHIPS "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=OFFERED+BY "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=INDIAN+GOVERNMENT "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=%5BRefer+to+scholarship.jpg+-+Page+1%5D "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Verify+Document+Requirements "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Cross-check+all+required+certificates+%28Identity%2C+Marks%2C+Income%29+listed+on+page+1. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Fill+Online+Application "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Navigate+to+the+designated+portal+before+the+specified+deadline. "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Submit+%26+Download+Acknowledgement "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=Save+the+submission+receipt+and+keep+the+application+ID+for+tracking. "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:65405 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A4%BC+%E0%A4%B8%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AF+%E0%A4%95%E0%A5%87+%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0+%E0%A4%AA%E0%A4%B0+%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%3A+%E2%80%A234+%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF+%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A4+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0&tl=hi&client=tw-ob&idx=0&total=1&textlen=82 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:53995 - "GET /api/chat/tts?text=%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A5%87%E0%A4%9C%E0%A4%BC%20%E0%A4%B8%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AF%20%E0%A4%95%E0%A5%87%20%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0%20%E0%A4%AA%E0%A4%B0%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%3A%20%E2%80%A234%20%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF%20%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A4%20%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%20%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0&lang=hi HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58280 - "POST /api/chat/stt?lang=hi HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53135 - "POST /api/chat/stt?lang=hi HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52843 - "POST /api/chat HTTP/1.1" 200 OK
